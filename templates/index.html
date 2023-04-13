@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul class="cupcake-list">
+
+</ul>
+<h2>Add a new cupcake</h2>
+<form id="new-cupcake-form">
+    <div>
+        <label for="form-flavor"></label>
+        <input name="flavor" id="form-flavor">
+    </div>
+    <div>
+        <label for="form-size"></label>
+        <input name="size" id="form-size">
+    </div>
+    <div>
+        <label for="form-rating"></label>
+        <input name="rating" id="form-rating">
+    </div>
+    <div>
+        <label for="form-image"></label>
+        <input name="image" id="form-image">
+    </div>
+    <button>Add!</button>
+</form>
+{% endblock %}
