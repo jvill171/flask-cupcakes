@@ -1,0 +1,11 @@
+#new-cupcake-form > *{
+    margin: 5px 0;
+}
+.cupcake-thumbnail{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.cupcake-list > *{
+    margin:10px 0;
+}
