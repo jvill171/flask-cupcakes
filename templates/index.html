@@ -1,27 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<ul class="cupcake-list">
-
-</ul>
 <h2>Add a new cupcake</h2>
 <form id="new-cupcake-form">
     <div>
         <label for="form-flavor"></label>
-        <input name="flavor" id="form-flavor">
+        <input name="flavor" id="form-flavor" placeholder="Flavor">
     </div>
     <div>
         <label for="form-size"></label>
-        <input name="size" id="form-size">
+        <input name="size" id="form-size" placeholder="Size">
     </div>
     <div>
         <label for="form-rating"></label>
-        <input name="rating" id="form-rating">
+        <input name="rating" id="form-rating" placeholder="Rating">
     </div>
     <div>
         <label for="form-image"></label>
-        <input name="image" id="form-image">
+        <input name="image" id="form-image" placeholder="Image">
     </div>
     <button>Add!</button>
 </form>
+<ul class="cupcake-list">
+
+</ul>
 {% endblock %}
+
+<button class="delete-button">X</button>
